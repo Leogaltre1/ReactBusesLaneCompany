@@ -44,7 +44,10 @@ Aplicación web desarrollada con React, Vite y Tailwind, diseñada para
 * Si la **ruta consultada no ha llegado o no se encuentra registrada**, se muestra un mensaje indicándolo.
 
 
-** React + Vite + Tailwind CSS **
+---
+
+
+**React + Vite + Tailwind CSS**
 
 
 Always follow below steps to Install React
