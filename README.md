@@ -1,4 +1,50 @@
-# React + Vite + Tailwind CSS
+# Gestor de Llegada de Unidades de Camión
+
+Aplicación web desarrollada con React, Vite y Tailwind, diseñada para
+
+**registrar y gestionar la llegada de unidades de camión** a diferentes carriles de una central.
+
+## Funcionalidades Principales:
+
+### Registro de Unidades:
+
+* Permite ingresar información detallada de cada unidad conforme llega:
+    * **Nombre de la Unidad**
+    * **Ruta asignada**
+    * **Hora de llegada**
+    * **Carril** al que se dirige (de un total de **5 carriles disponibles**).
+
+* Controla que **cada carril no exceda un límite de 5 unidades**.
+
+### Visualización en Tabla Dinámica:
+
+* Las unidades registradas se muestran **en tiempo real** en una tabla organizada por carriles.
+
+* Cada **carril funciona como una columna** donde se apilan las unidades que le han sido asignadas.
+
+* Para cada unidad en la tabla, se visualiza su:
+    * **Nombre**
+    * **Ruta**
+    * **Hora de llegada**
+
+* Ofrece la posibilidad de **editar la información** (unidad, ruta, hora) de cualquier registro a través de un **modal interactivo**.
+
+* Permite **eliminar unidades individualmente** de la tabla.
+
+* Incluye una opción para **vaciar completamente la tabla** de registros.
+
+### Consulta de Rutas:
+
+* Al **buscar una ruta**, la aplicación muestra **tarjetas informativas** con los detalles de todas las unidades que corresponden a esa ruta:
+    * **Unidad**
+    * **Ruta**
+    * **Carril**
+    * **Hora de llegada**
+
+* Si la **ruta consultada no ha llegado o no se encuentra registrada**, se muestra un mensaje indicándolo.
+
+
+** React + Vite + Tailwind CSS **
 
 
 Always follow below steps to Install React
